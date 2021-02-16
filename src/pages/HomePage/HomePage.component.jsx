@@ -2,7 +2,10 @@ import React from 'react';
 
 const Homepage = () => (
   <div className="homepage">
-    <h1>Product Title</h1>
+    <section>
+      <h1>Product Title</h1>
+      <img src="https://via.placeholder.com/400" alt="placeholder image" />
+    </section>
 
     <section>
       <h2>Product Info</h2>
