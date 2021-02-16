@@ -14,20 +14,20 @@ const Homepage = () => (
 
     <section>
       <h2>Product Features</h2>
-      <div>
+      <a href="#">
         <h3>Feature 1</h3>
         <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis.</p>
-      </div>
+      </a>
 
-      <div>
+      <a href="#">
         <h3>Feature 2</h3>
         <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis.</p>
-      </div>
+      </a>
 
-      <div>
+      <a href="#">
         <h3>Feature 3</h3>
         <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis.</p>
-      </div>
+      </a>
     </section>
 
     <hr />
