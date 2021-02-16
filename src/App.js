@@ -1,11 +1,16 @@
-import Homepage from './pages/HomePage/HomePage.component';
-import './App.css';
 import HomePage from './pages/HomePage/HomePage.component';
+import { Route, Switch } from 'react-router-dom';
+
+import './App.css';
+import FeaturePage from './pages/FeaturePage/FeaturePage.component';
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path="/features" component={FeaturePage} />
+      </Switch>
     </div>
   );
 }
